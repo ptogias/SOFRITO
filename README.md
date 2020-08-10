@@ -7,7 +7,7 @@
 
 Sofrito is a freely available tool, created to assist text mining efforts of biomedical literature. Some of the most common steps of such a project include corpus creation, entity extraction and normalization, retrieval of sentences (or other parts of a larger text) and finally, text classification with the purpose of discovering associations between specific entities of interest.
 
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Alt text](https://github.com/mtpandi/SOFRITO/blob/master/sofrito.png?raw=true "Title")
 
 
 Sofrito is designed to offer:
