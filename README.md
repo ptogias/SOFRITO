@@ -29,16 +29,16 @@ The data extracted from Sofrito can be further processed, analyzed, and get easi
 
 
 ### References
+Pandi M-T, van der Spek PJ, Koromina M and Patrinos GP. A Novel Text-Mining Approach for Retrieving Pharmacogenomics Associations From the Literature. Frontiers in Pharmacology. 2020;11:602030. doi:10.3389/fphar.2020.602030
+
 Wei CH, Allot A, Leaman R, Lu Z. PubTator central: automated concept annotation for biomedical full text articles. Nucleic Acids Res. 2019;47(W1):W587-W593. doi:10.1093/nar/gkz389
 
-Wei CH, Kao HY, Lu Z. PubTator: a web-based text mining tool for assisting biocuration. Nucleic Acids Res. 2013;41(Web Server issue):W518-W522. doi:10.1093/nar/gkt441
+Wei CH, Kao HY, Lu Z. PubTator: a web-based text mining tool for assisting biocuration. Nucleic Acids Res. 2013;41:W518-W522. doi:10.1093/nar/gkt441
 
 Wei CH, Leaman R, Lu Z. Beyond accuracy: creating interoperable and scalable text-mining web services. Bioinformatics. 2016;32(12):1907-1910. doi:10.1093/bioinformatics/btv760
 
 Comeau DC, Wei CH, Islamaj Doğan R, Lu Z. PMC text mining subset in BioC: about three million full-text articles and growing. Bioinformatics. 2019;35(18):3533-3535. doi:10.1093/bioinformatics/btz070
 
 Rani J, Shah AB, Ramachandran S. pubmed.mineR: an R package with text-mining algorithms to analyse PubMed abstracts. J Biosci. 2015;40(4):671-682. doi:10.1007/s12038-015-9552-2
-
-My child – the incentive behind Sofrito
 
 
