@@ -1,4 +1,6 @@
-# SOFRITO
+![alt text](https://github.com/ptogias/SOFRITO/blob/master/logo/sofrito_logo.png)
+![alt text](https://github.com/ptogias/SOFRITO/blob/master/logo/sofrito_sublogo.png)
+
 
 ###### Panagiotis Togias, Maria-Theodora Pandi
 
