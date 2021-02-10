@@ -2,6 +2,8 @@
 
 ###### Panagiotis Togias, Maria-Theodora Pandi
 
+**Due to shinyapps.io free licence limitations, SOFRITO cannot be available for multiple users at once. A session from one user must first end for another to start. Also, there is a limit of usage time per month. (Sorry...)** 
+
 
 ### Project description
 
@@ -19,7 +21,7 @@ This query can either be a general one, or more specific, as described in [PubMe
  PTC’s Mutation extraction tool, despite its’ overall utility, cannot identify Star Alleles, while those entities are misclassified as Genes. Although Star Alleles might not always be present in articles retrieved from a general query, in certain cases, especially when the query is related to Pharmacogenomics or Pharmacogenetics or Precision Medicine, it is important to tackle this issue and identify the Gene entities that, in reality, correspond to Star Alleles.
 
 -**Identification of sentences that contain at least two co-occurring entities**
-(e.g. someone might be interested in finding all the sentences where at least a Gene and at least a Mutation are mentioned). The end user has the option to choose two from the following biomedical concepts: Genes, Diseases, Chemicals, Mutations (including Star Alleles – if present), Species and Cell Lines and get a second (.csv) file containing the corresponding sentences. In the case when no entities are chosen, only one file with the annotations for each article is provided, while when either one (or both) of the chosen entities are not identified in the corpus or no sentence containing both entities is found Sofrito provides two files, one with the annotations, and one with the error encountered. 
+(e.g. someone might be interested in finding all sentences where at least a Gene and at least a Mutation are mentioned). The end user has the option to choose two from the following biomedical concepts: Genes, Diseases, Chemicals, Mutations (including Star Alleles – if present), Species and Cell Lines and get a second (.csv) file containing the corresponding sentences. In the case when no entities are chosen, only one file with the annotations for each article is provided, while when either one (or both) of the chosen entities are not identified in the corpus or no sentence containing both entities is found Sofrito provides two files, one with the annotations, and one with the error encountered. 
 
 The data extracted from Sofrito can be further processed, analyzed, and get easily incorporated in a text mining project, just like in this amazing article where potential pharmacogenomic associations (among Variants are Chemicals) are detected. ***So, you’re welcome!***  
 
