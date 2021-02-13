@@ -40,18 +40,21 @@ SOFRITO is a freely available tool, created to assist text mining efforts of bio
 
 ### SOFRITO is designed to offer:
 
-* Extraction of biomedical concept annotations found in articles (titles & abstracts or full text papers) that correspond to a specific PubMed query, as provided by [PubTator Central (PTC)]( https://www.ncbi.nlm.nih.gov/research/pubtator/)**
+* **Extraction of biomedical concept annotations found in articles (titles & abstracts or full text papers) that correspond to a specific PubMed query, as provided by [PubTator Central (PTC)]( https://www.ncbi.nlm.nih.gov/research/pubtator/)**
+
 This query can either be a general one, or more specific, as described in [PubMed’s instructions](https://pubmed.ncbi.nlm.nih.gov/help/).  PTC performs concept annotation of the collected literature for the following biological entities: genes/proteins, genetic variants, diseases, chemicals, species, cell lines, and provides access to those annotations either through its’ webpage, or programmatically. Retrieving annotations from papers according to their PMID (PubMed ID) is an easy task for someone with small or none programming skills (through PTC’s webpage, PTC’s RESTful API or through the [pubmed.mineR library](https://cran.r-project.org/web/packages/pubmed.mineR/index.html)). However, those annotations are limited on entities found on the Title and Abstract only, even if the entire text of the article is available and has been annotated by PTC. In order to extract annotations from the entire text, an article must be accompanied by a PMCID (ID to U.S. National Institutes of Health's National Library of Medicine (NIH/NLM) free full-text archive of biomedical and life sciences journal literature). Sofrito, uses pubmed.mineR library to collect the PMIDs of articles that correspond to a user defined query and converts those PMIDs to their corresponding PMCIDs (if available) by programmatically accessing [NCBI’s ID convertor](https://www.ncbi.nlm.nih.gov/pmc/pmctopmid/). Consequently, PTC’s annotations of the articles of interest are retrieved in BiocJSON format and after thorough processing are converted in a more easily manageable format. Finally, the annotations can be downloaded by Sofrito’s end user as a comma separated file (.csv), ready for further analysis. 
 
-* Star Allele identification**
+* **Star Allele identification**
+
  PTC’s Mutation extraction tool, despite its’ overall utility, cannot identify Star Alleles, while those entities are misclassified as Genes. Although Star Alleles might not always be present in articles retrieved from a general query, in certain cases, especially when the query is related to Pharmacogenomics or Pharmacogenetics or Precision Medicine, it is important to tackle this issue and identify the Gene entities that, in reality, correspond to Star Alleles.
 
-* Identification of sentences that contain at least two co-occurring entities**
+* **Identification of sentences that contain at least two co-occurring entities**
+
 (e.g., someone might be interested in finding all the sentences where at least a Gene and at least a Mutation are mentioned). The end user has the option to choose two from the following biomedical concepts: Genes, Diseases, Chemicals, Mutations (including Star Alleles – if present), Species and Cell Lines and get a second (.csv) file containing the corresponding sentences. In the case when no entities are chosen, only one file with the annotations for each article is provided, while when either one (or both) of the chosen entities are not identified in the corpus or no sentence containing both entities is found Sofrito provides two files, one with the annotations, and one with the error encountered. 
 
 Data extracted from SOFRITO can be further processed, analyzed, and get easily incorporated in a text mining project, just like in this amazing article where potential pharmacogenomic associations (among Variants are Chemicals) are detected.
 
-****Note:* Until now, the best way of illustrating data outside of a compiler is through excel's *Get & Transform Data* option. We are trying to fix this so data downloaded from SOFRITO are ready to be imported into a common excel file through its *Text to Columns* option.***
+****Note: Until now, the best way of illustrating data outside of a compiler is through excel's [Get & Transform] Data option. We are trying to fix this so data downloaded from SOFRITO are ready to be imported into a common excel file through its [Text to Columns] option.****
 
 Import data from a .csv file into an existing worksheet:<br>
  *  On the Data tab, in the Get & Transform Data group, click From Text/CSV.
