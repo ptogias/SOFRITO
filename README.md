@@ -24,6 +24,7 @@
 
 </div>
 
+***Due to shinyapps.io free licence limitations, SOFRITO cannot be available for multiple users at once. A session from one user must first end for another to start. Also, there is a limit of usage time per month. (Sorry...)***
 
 ### Project description
 
@@ -33,7 +34,6 @@ SOFRITO is a freely available tool, created to assist text mining efforts of bio
   <img src="sofrito.png" alt="SOFRITO chart" />
 </h1>
 
-***Due to shinyapps.io free licence limitations, SOFRITO cannot be available for multiple users at once. A session from one user must first end for another to start. Also, there is a limit of usage time per month. (Sorry...)***
 
 ### SOFRITO is designed to offer:
 
