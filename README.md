@@ -66,10 +66,10 @@ Import data from a .csv file into an existing worksheet:<br>
 For questions, reach out to either one of the maintainers
 
 * *Panagiotis Togias*<br>
-ptogias at outlook.com
+ptogias at outlook dot com
 
 * *Maria-Theodora Pandi*<br>
-pandimaria17 at gmail.com
+pandimaria17 at gmail dot com
 
 
 ### References
