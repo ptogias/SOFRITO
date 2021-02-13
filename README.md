@@ -25,7 +25,10 @@
 </div>
 
 
-### Project description
+### About Sofrito (Food)
+Sofrito is one of the most famous and unique dishes of Corfu island in Greece. Ingredients include beef, cooked in a wine sauce, lots of garlic and parsley. Overall cooking time is 90 minutes and when it's done it can be served with rice or mashed potatoes.
+
+### About SOFRITO (App)
 
 SOFRITO is a freely available tool, created to assist text mining efforts of biomedical literature. Some of the most common steps of such a project include corpus creation, entity extraction and normalization, retrieval of sentences (or other parts of a larger text) and finally, text classification with the purpose of discovering associations between specific entities of interest.
 
