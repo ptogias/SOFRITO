@@ -46,7 +46,7 @@ This query can either be a general one, or more specific, as described in [PubMe
 * Identification of sentences that contain at least two co-occurring entities**
 (e.g., someone might be interested in finding all the sentences where at least a Gene and at least a Mutation are mentioned). The end user has the option to choose two from the following biomedical concepts: Genes, Diseases, Chemicals, Mutations (including Star Alleles – if present), Species and Cell Lines and get a second (.csv) file containing the corresponding sentences. In the case when no entities are chosen, only one file with the annotations for each article is provided, while when either one (or both) of the chosen entities are not identified in the corpus or no sentence containing both entities is found Sofrito provides two files, one with the annotations, and one with the error encountered. 
 
-The data extracted from SOFRITO can be further processed, analyzed, and get easily incorporated in a text mining project, just like in this amazing article where potential pharmacogenomic associations (among Variants are Chemicals) are detected.
+Data extracted from SOFRITO can be further processed, analyzed, and get easily incorporated in a text mining project, just like in this amazing article where potential pharmacogenomic associations (among Variants are Chemicals) are detected.
 
 ****Note:* Until now, the best way of illustrating data outside of a compiler is through excel's *Get & Transform Data* option. We are trying to fix this so data downloaded from SOFRITO are ready to be imported into a common excel file through its *Text to Columns* option.***
 
