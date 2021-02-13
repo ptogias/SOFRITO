@@ -1,8 +1,8 @@
 <h1 align="center">
-  <img src="images/sofrito_logo.png" alt="SOFRITO Logo" />
+  <img src="logo/sofrito_logo.png" alt="SOFRITO Logo" />
 </h1>
 <h2 align="center">
-  <img alt="Biomedical Concept Annotations Retrieval" src="images/sofrito_sublogo.png">
+  <img alt="Biomedical Concept Annotations Retrieval" src="logo/sofrito_sublogo.png">
 </h2>
 
 ###### Panagiotis Togias, Maria-Theodora Pandi
@@ -30,7 +30,7 @@
 SOFRITO is a freely available tool, created to assist text mining efforts of biomedical literature. Some of the most common steps of such a project include corpus creation, entity extraction and normalization, retrieval of sentences (or other parts of a larger text) and finally, text classification with the purpose of discovering associations between specific entities of interest.
 
 <h1 align="center">
-  <img src="images/sofrito.png" alt="SOFRITO chart" />
+  <img src="sofrito.png" alt="SOFRITO chart" />
 </h1>
 
 ***Due to shinyapps.io free licence limitations, SOFRITO cannot be available for multiple users at once. A session from one user must first end for another to start. Also, there is a limit of usage time per month. (Sorry...)***
